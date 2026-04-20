@@ -15,10 +15,10 @@ public class Test2 {
         }
         System.out.println();
         list.set(1, "!!!");
-        for(String s:list){
-                    System.out.print(s + " ");
+        for (String s : list) {
+            System.out.print(s + " ");
 
         }
-        }
     }
+}
 }
