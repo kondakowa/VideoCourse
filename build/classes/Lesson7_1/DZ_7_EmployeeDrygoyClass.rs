@@ -1,0 +1,3 @@
+Lesson7_1.DZ7_1_EmployeeDrygoyClass
+Lesson7_1.TestEmployeeOutsidePackage
+anotherPackage.TestEmployeeOutsidePackage
