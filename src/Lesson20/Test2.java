@@ -14,8 +14,11 @@ public class Test2 {
             System.out.print(s + " ");
         }
         System.out.println();
-        for (int i=0;i<list.size();i++){
-        System.out.println(list.get(i));
+        list.set(1, "!!!");
+        for(String s:list){
+                    System.out.print(s + " ");
+
+        }
         }
     }
 }
