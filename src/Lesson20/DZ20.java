@@ -5,6 +5,7 @@
 объектов типа String, взятых из параметров метода, и выводить данный объект на экран.
 Продемонстрируйте данный метод.
  */
+
 package Lesson20;
 
 import java.util.ArrayList;
@@ -24,7 +25,6 @@ public class DZ20 {
                 list.add(s);
             }
         }
-
         Collections.sort(list);
         for (String s : list) {
             System.out.print(s + " ");
