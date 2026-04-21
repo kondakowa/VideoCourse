@@ -21,7 +21,7 @@ public class DZ22_1 {
     public int getCourse() {
         return course;
     }
-    
+
     public void setGrade(int grade) {
         if (grade >= 1 && grade <= 10) {
             this.grade = grade;
@@ -29,6 +29,7 @@ public class DZ22_1 {
             System.out.println("Оценки должны быть в интервале от 1 до 10");
         }
     }
+
     public void setCourse(int course) {
         if (course >= 1 && course <= 4) {
             this.course = course;
@@ -48,13 +49,11 @@ public class DZ22_1 {
     }
 }
 
-
 class TestStudent {
 
     public static void main(String[] args) {
 
         DZ22_1 s = new DZ22_1();
-
         s.setName(new StringBuilder("Stepan"));
         s.setCourse(3);
         s.setGrade(8);
