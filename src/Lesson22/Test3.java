@@ -2,7 +2,6 @@ package Lesson22;
 
 public class Test3 {
 
-    main
 
     static public void main(String[] args) {
         Doctor doc = new Doctor();
