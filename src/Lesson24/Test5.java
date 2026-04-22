@@ -1,4 +1,4 @@
-
+/*
 package Lesson24;
 
 public class Test5 {

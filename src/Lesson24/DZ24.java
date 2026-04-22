@@ -1,7 +1,7 @@
-package Homework;
+package Lesson24;
 
-public class Lesson24 {
- 
+public class DZ24 {
+
     public static void main(String[] args) {
         Mechenosec m = new Mechenosec("Karl");
         System.out.println(m.name);
@@ -24,21 +24,24 @@ public class Lesson24 {
         mam.run();
         mam.speak();
     }
+
 }
 
-
-
 abstract class Animal {
+
     Animal(String name) {
         this.name = name;
     }
 
     String name;
+
     abstract void eat();
+
     abstract void sleep();
 }
 
 abstract class Fish extends Animal {
+
     Fish(String name) {
         super(name);
         this.name = name;
@@ -53,6 +56,7 @@ abstract class Fish extends Animal {
 }
 
 abstract class Bird extends Animal implements Speakable {
+
     Bird(String name) {
         super(name);
         this.name = name;
@@ -67,6 +71,7 @@ abstract class Bird extends Animal implements Speakable {
 }
 
 abstract class Mammal extends Animal implements Speakable {
+
     Mammal(String name) {
         super(name);
         this.name = name;
@@ -75,13 +80,17 @@ abstract class Mammal extends Animal implements Speakable {
     abstract void run();
 }
 
+// ---------------- Интерфейс ----------------
 interface Speakable {
+
     default void speak() {
         System.out.println("Somebody speaks");
     }
 }
 
+// ---------------- Конкретные классы ----------------
 class Mechenosec extends Fish {
+
     Mechenosec(String name) {
         super(name);
         this.name = name;
@@ -94,11 +103,12 @@ class Mechenosec extends Fish {
 
     @Override
     public void eat() {
-        System.out.println("Mechenosec ne xishchnaya riba, i ona est obychnyi ribiy korm!");
+        System.out.println("Mechenosec ne khishchnaya riba, i ona est obychnyi ribiy korm!");
     }
 }
 
 class Pingvin extends Bird {
+
     Pingvin(String name) {
         super(name);
         this.name = name;
@@ -126,6 +136,7 @@ class Pingvin extends Bird {
 }
 
 class Lev extends Mammal {
+
     Lev(String name) {
         super(name);
         this.name = name;

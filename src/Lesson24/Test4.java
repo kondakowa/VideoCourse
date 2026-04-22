@@ -1,9 +1,9 @@
-package Lesson24;
+/*package Lesson24;
 
 public class Test4 {
 
     Jumpable j1 = new Human();
-    Jumpable j2 = new Animal();
+    Jumpable j2 = new DZ24();
 }
 
 class Human implements Jumpable {
@@ -13,7 +13,7 @@ class Human implements Jumpable {
     }
 }
 
-class Animal implements Jumpable {
+class DZ24 implements Jumpable {
 
     public void jump() {
         System.out.println("Animal jumps");
