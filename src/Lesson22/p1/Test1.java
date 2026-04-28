@@ -1,4 +1,4 @@
-package Lesson22.p1;
+/*package Lesson22.p1;
 
 import Lesson22.Chelovek;
 
