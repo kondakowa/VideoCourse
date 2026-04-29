@@ -1,4 +1,4 @@
-package Lesson27;
+/*package Lesson27;
 
 import java.io.*;
 
@@ -25,3 +25,4 @@ public class Test8 {
         System.out.println(abc());
     }
 }
+*/

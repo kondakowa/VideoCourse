@@ -23,3 +23,4 @@ class Tiger extends Animal {
     void abc() { System.out.println("non-static metod iz klassa Tiger"); }
     static void def() { System.out.println("static metod iz klassa Tiger"); }
 }
+*/

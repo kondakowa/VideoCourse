@@ -18,3 +18,4 @@ public class Test16 {
 class Employee{}
 class Doctor extends Employee{}
 class Teacher extends Employee{}
+*/

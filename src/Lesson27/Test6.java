@@ -27,4 +27,4 @@ public class Test6 {
             System.out.println("Poyman exception 6");
         }
     }
-}
+}*/
